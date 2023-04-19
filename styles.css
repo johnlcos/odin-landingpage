@@ -20,6 +20,9 @@ body {
     gap: 24px;
     margin-left:auto;
 }
+.second-box{
+    margin: 40px auto;
+}
 .hero{
     display: flex;
 }
@@ -51,4 +54,42 @@ button {
     background-color: gray;
     color: #E5E7EB;
 }
-
+.cards-title{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.card-img{
+    border: 6px solid #3882F6;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+}
+.card{
+    max-width: 162px;
+    text-align: center;
+}
+.third-box{
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    background-color: #E5E7EB;
+    margin: 150px auto;
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin: 0;
+}
+.the-quoted{
+    font-size: 18px;
+    color: #1F2937;
+    margin-left: auto;
+}
