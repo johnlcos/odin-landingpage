@@ -47,6 +47,7 @@ button {
     color: #F9FAF8;
     background-color: #3882F6;
     max-width: 128px;
+    max-height: 36px;
     border-radius: 10px;
 }
 .hero-img{
@@ -92,4 +93,40 @@ button {
     font-size: 18px;
     color: #1F2937;
     margin-left: auto;
+}
+.fourth-box {
+    display:flex;
+    background-color: #3882F6;
+    padding: 36px;
+    max-width: 600px;
+    margin: 150px auto;
+    border-radius: 10px;
+}
+.fourth-box-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.call-title{
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+}
+.call-text{
+    color: #E5E7EB;
+    font-size: 12px;
+    margin: 0;
+}
+.button-2{
+    margin-left: auto;
+}
+
+.footer{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    justify-content: center;
+    min-height: 64px;
+    line-height: 64px;
 }
